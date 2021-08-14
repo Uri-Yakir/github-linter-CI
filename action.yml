@@ -1,0 +1,6 @@
+# action.yml
+name: 'python linter'
+description: 'Lint python code base using mypy and flake8'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
